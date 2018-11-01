@@ -1,41 +1,44 @@
 html
 {
-    color: #aaaaaa;
-    font-family: 'Open Sans', sans-serif;
+	color: #aaaaaa;
+	font-family: 'Open Sans', sans-serif;
 }
 
 body
 {
-    background: #F8F8F8;
+	background: #F8F8F8;
 }
 
 #content-wrapper
 {
-    width: 100%;
-    margin: 0 auto 0 auto;
-    max-width: 960px;
-    min-width: 400px;
-    overflow: hidden;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	max-width: 960px;
+	min-width: 400px;
+	overflow: hidden;
 }
 
 .logo
 {
-    font-family: "Rajdhani";
-    font-size: 70px;
-    margin: 40px auto 40px auto;
-    text-align: center;
+	margin: 40px auto 40px auto;
+	text-align: center;
 }
 
 .comingsoon
 {
-    height: 100px;
-    margin-top: 30px;
-    text-align: center;
+	/*height: 100px;*/
+	margin-top: 30px;
+	text-align: center;
+}
+
+.comingsoon img
+{
+	height: 100px;
 }
 
 .newsletter
 {
-    display: none;
-    margin: 50px auto 0 auto;
-    text-align: center;
+	display: none;
+	margin: 50px auto 0 auto;
+	text-align: center;
 }
