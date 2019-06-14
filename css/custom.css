@@ -1,1 +1,27 @@
-/*! Place your custom styles here */
+.main-container h1
+{
+	margin-bottom: 5px;
+}
+
+.main-container ul.lead > li
+{
+	margin-bottom: 10px;
+}
+
+.cta label
+{
+	display: block;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.cta input[type='submit']
+{
+	cursor: pointer;
+}
+
+.cta textarea
+{
+	height: 100px;
+	width: 100%;
+}
