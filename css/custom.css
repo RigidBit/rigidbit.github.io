@@ -1,21 +1,31 @@
-.main-container h1,
-.main-container h2
+section.landing h1,
+section.landing h2
 {
 	margin-bottom: 5px;
 }
 
-.main-container ul.lead > li
+section.landing ul.lead > li
 {
 	margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 1200px)
 {
-	.main-container img
+	section.landing img
 	{
 		position: relative;
 		top: -25px;
 	}
+}
+
+section.whatisrigidbit img.icon
+{
+	width: 125px !important;
+}
+
+section.whatisrigidbit .mb--1
+{
+	margin-bottom: 1.85714286em; /* Fix for mb--1 not working on small screens. */
 }
 
 .cta label
