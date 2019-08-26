@@ -1,3 +1,9 @@
+.btn--primary
+{
+	background: #0057b8 !important;
+	border-color: #0057b8 !important;
+}
+
 nav .logo-tagline
 {
 	font-size: 11px;
@@ -16,12 +22,48 @@ section.landing .slides
 	overflow: hidden;
 }
 
+section.landing .slides .backdrop
+{
+	background: rgba(0, 0, 0, 0.5);
+	height: 100%;
+}
+
+section.landing .slide-1
+{
+	background: url('../img/nodes.jpg');
+}
+
+section.landing .slide-1 .backdrop
+{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+section.landing .slide-2
+{
+	background: url('../img/city-brown.jpg');
+}
+
+section.landing .slide-3
+{
+	background-image: url('../img/rock.jpg');
+}
+
+section.landing .slide-1 .backdrop
+{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+section.landing .slide-4
+{
+	background-image: url('../img/capitol.jpg');
+}
+
 section.landing .slides button
 {
 	background-color: rgba(255, 255, 255, 0.2);
 }
 
-section.landing .slides .flickity-slider > li > div
+section.landing .slides .flickity-slider > li > div.backdrop > div
 {
 	color: white;
 	position: relative;
@@ -29,20 +71,20 @@ section.landing .slides .flickity-slider > li > div
 	transform: translateY(-50%);
 }
 
-section.landing .slides .flickity-slider > li > div > h1
+section.landing .slides .flickity-slider > li > div.backdrop > div > h1
 {
 	color: white;
 	font-size: 3.5em;
 	font-weight: bold;
-	text-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2), 0px 1px 20px rgba(0, 0, 0, 0.2), -1px 0px 20px rgba(0, 0, 0, 0.2), 0px -1px 20px rgba(0, 0, 0, 0.2);
+	/*text-shadow: 1px 0px 20px rgba(0, 0, 0, 0.2), 0px 1px 20px rgba(0, 0, 0, 0.2), -1px 0px 20px rgba(0, 0, 0, 0.2), 0px -1px 20px rgba(0, 0, 0, 0.2);*/
 }
 
-section.landing .slides .flickity-slider > li > div > h2
+section.landing .slides .flickity-slider > li > div.backdrop > div > h2
 {
 	color: white;
 	font-size: 2.0em;
 	font-weight: bold;
-	text-shadow: 1px 0px 20px rgba(0, 0, 0, 0.4), 0px 1px 20px rgba(0, 0, 0, 0.4), -1px 0px 20px rgba(0, 0, 0, 0.4), 0px -1px 20px rgba(0, 0, 0, 0.4);
+	/*text-shadow: 1px 0px 20px rgba(0, 0, 0, 0.4), 0px 1px 20px rgba(0, 0, 0, 0.4), -1px 0px 20px rgba(0, 0, 0, 0.4), 0px -1px 20px rgba(0, 0, 0, 0.4);*/
 }
 
 section.landing .slides .flickity-slider > li
@@ -57,7 +99,7 @@ section.landing .slides .flickity-slider > li ul.list
 {
 	font-size: 1.6em;
 	font-weight: bold;
-	text-shadow: 1px 0px 15px rgba(0, 0, 0, 0.6), 0px 1px 15px rgba(0, 0, 0, 0.6), -1px 0px 15px rgba(0, 0, 0, 0.6), 0px -1px 15px rgba(0, 0, 0, 0.6);
+	/*text-shadow: 1px 0px 15px rgba(0, 0, 0, 0.6), 0px 1px 15px rgba(0, 0, 0, 0.6), -1px 0px 15px rgba(0, 0, 0, 0.6), 0px -1px 15px rgba(0, 0, 0, 0.6);*/
 }
 
 section.landing ul.list
@@ -92,4 +134,10 @@ section.whatisrigidbit .mb--1
 {
 	height: 100px;
 	width: 100%;
+}
+
+.lead,
+.lead > li
+{
+	font-weight: 300;
 }
