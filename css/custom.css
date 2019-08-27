@@ -4,6 +4,13 @@
 	border-color: #0057b8 !important;
 }
 
+input[type="radio"]
+{
+	height: auto;
+	-webkit-appearance: radio;
+	width: auto;
+}
+
 nav .logo-tagline
 {
 	font-size: 11px;
